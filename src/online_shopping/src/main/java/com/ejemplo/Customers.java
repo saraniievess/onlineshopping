@@ -1,3 +1,4 @@
+package com.ejemplo;
 
 import java.util.*;
 
@@ -5,13 +6,14 @@ import java.util.*;
 /**
  * Class Customers
  */
+
 public class Customers {
 
   //
   // Fields
   //
 
-  private string {id} id;
+  private String id;
   private Address address;
   private Phone phone;
   private String email;
@@ -35,7 +37,7 @@ public class Customers {
    * Set the value of id
    * @param newVar the new value of id
    */
-  public void setId (string {id} newVar) {
+  public void setId (String newVar) {
     id = newVar;
   }
 
@@ -43,7 +45,7 @@ public class Customers {
    * Get the value of id
    * @return the value of id
    */
-  public string {id} getId () {
+  public String getId () {
     return id;
   }
 

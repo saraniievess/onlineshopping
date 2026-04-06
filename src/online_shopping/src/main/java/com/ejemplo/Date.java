@@ -1,9 +1,11 @@
+package com.ejemplo;
+
 
 
 /**
- * Class Address
+ * Class Date
  */
-public class Address {
+public class Date {
 
   //
   // Fields
@@ -13,7 +15,7 @@ public class Address {
   //
   // Constructors
   //
-  public Address () { };
+  public Date () { };
   
   //
   // Methods
